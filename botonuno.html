@@ -1,0 +1,35 @@
+ <!-- Escribirmos nuestra estructura de HTML -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>inicio</title>
+     <!-- Mandamos a llamar nuestros estilos (eslitos.css) 
+        siempre con un link rel"stylesheet""-->
+    <link rel="stylesheet" href="eslitos.css">
+</head>
+ <!-- Cajita en la que va too mi contenido -->
+<body>
+<!-- Escribo mi pagina y la referencio a donde vamos a ir cuando de el click en el boton -->
+    <a href="file:///C:/Users/USER/Videos/Desarrollo/pizza/pizza.html" class="btn-neon" onclick="PlayAudio()">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Te guto? UwU
+    </a>
+    <audio id="audio1" autoplay loop muted class="musica">
+        <source src="Cards.mp3" type="audio/mpeg">
+    </audio>
+      <!-- Aqui van mis div y le pongo su class que es content para que 
+      cuando haga mi css mande a llamar el id por con (.content) y le ponga 
+      estilos bonitos con transiciones y colorsitos bonitos -->
+      <!-- Vamos a crear una etiquet en scrips para que s epueda repoducir el audio UwU-->
+      <script>
+         function PlayAudio(){
+           document.getElementById("audio1").play();
+         }
+      </script>
+</body>
+</html>

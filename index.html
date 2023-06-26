@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Invitacion</title>
+        <!-- mando a llamar mis bibliotecas aun que sean con diferente lenguaje 
+        con <link rel="stylesheet" href="___________.(js.css.html. etc."-->
+        <link rel="stylesheet" href="estilosbonitos.css">
+        
+    </head>
+    <!-- Cajita en la que va too mi contenido -->
+    <body onclick="PlayAudio()"> 
+        <!-- Cajita div con clas para poder darle estilo con el css a mi cajita -->
+        <div class="full-screen">
+            <!-- h1 es mi texto -->
+            <h1 class="texto">
+            Elige un pokemon</br> Comienza la batalla</br>
+            
+            </h1>
+            <!-- Cositas bonitas para mi fondo de mi mapina web-->
+            <video src="mix.mp4" autoplay muted loop></video>
+            <!-- Musiquita bonita de furret para mi pagina  -->
+            <audio id="audio1" autoplay controls loop class="musica">
+              <source src="furret.mp3" type="audio/mpeg">
+            </audio>
+            <!-- Aqui van mis div y le pongo su class que es content para que 
+            cuando haga mi css mande a llamar el id por con (.content) y le ponga 
+            estilos bonitos con transiciones y colorsitos bonitos -->
+            <!-- Vamos a crear una etiquet en scrips para que s epueda repoducir el audio UwU-->
+            <script>
+               function PlayAudio(){
+                 document.getElementById("audio1").play();
+
+               }
+            </script>
+        <div class="content">
+                
+                <!-- Bonotes bonitos cada uno con un class diferente porque 
+                vamos a esparcir los bonotones por toda la pagina web y vamos 
+                a acomodar a cada uno son difetentes position-->
+                <div class="pizza">
+                    <a href="https://www.wikidex.net/wiki/Eternatus" target="_blank">ETERNATUS</a>
+               </div>
+               <div class="museo">
+                 <a href="https://www.wikidex.net/wiki/Mewtwo"target="_blank">MEWTWO</a>
+               </div>
+               <div class="heladito">
+                 <a href="https://www.wikidex.net/wiki/Rayquaza" target="_blank">RAYQUAZA</a>
+               </div>  
+                <div class="no_me_quiere_en_su_vida">
+                 <a href="./love.mp4">KYOGRE</a>
+                </div>
+                <div class="parque">
+                  <a href="https://www.wikidex.net/wiki/Kyogre" target="_blank">GROUDON </a>
+                </div>
+                <div class="cine">
+                 <a href="https://www.wikidex.net/wiki/Necrozma" target="_blank">NECROZMA</a>
+                </div>
+                <div class="planetario">
+                    <a href="https://www.wikidex.net/wiki/Arceus" target="_blank">ARCEUS</a>
+                </div>
+                
+            </div>  
+
+        </div>
+    </body>
+
+
+</html>

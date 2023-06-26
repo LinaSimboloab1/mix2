@@ -1,0 +1,144 @@
+/* Estilos de mi titulo*/
+    h1
+    {
+        color:rgb(233, 239, 240);
+        font-size: 4em;
+        justify-content:flex-start;
+
+    }
+/* Estilos de mi contenido en general 
+por ello pongo (*) y luego mis rallitas
+de corchetes  */
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+    }
+/* Estilos de toda mi caja de contenido*/
+    .full-screen
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+/* Estilos de la cajita de mi video */
+    .full-screen video
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+/* Cosas para que se vean bien bonix mis botones*/
+    .content a
+    {
+        border-radius: 50%;
+        display: block;
+        margin: 50px auto;
+        width: 170px;
+        height: 170px;
+        line-height: 50px;
+        background: rgb(13, 13, 14);
+        text-align: center;
+        color:rgb(0, 0, 0);
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: .99s linear;
+    }
+/* Para que  mis botones los puesa mover bonito
+le pongo un absolute a todo mi contenido */
+    .content
+    {
+        position:absolute;
+    }
+/* El backgroun en el cual va a cambiar de color mis botones*/
+    .content a:hover
+    {
+        
+       
+        color:rgb(196, 251, 255);
+        font-family: fantasy;
+        font-size: 2em;
+        background:url("rojito.jpg");
+
+    }
+
+/* Margenes de mis botones bomnitos UwU */
+         /* top:__px     eje y*/
+         /* left:__ px   eje x*/
+
+        .pizza/* RIGHT*/
+        {
+            position: absolute;
+            top: 100px; 
+            bottom:0 ;
+            right:0 ;
+            left: 350px; 
+        }
+        .museo/* RIGHT*/
+        {
+            position: absolute;
+            top: 500px;
+            bottom:0 ;
+            right:0 ;
+            left:390px;
+        }
+        .heladito/* RIGTH*/
+        {
+            position: absolute;
+            top: 300px;
+            bottom:0 ;
+            right:0 ;
+            left: 470px;
+        }.parque /* LEFT*/
+        {
+            position: absolute;
+            top: 100px;
+            bottom:0 ;
+            right:0 ;
+            left:-1100px;
+        }.cine /* LEFT*/
+        {
+            position: absolute;
+            top: 300px;
+            bottom:0 ;
+            right:0 ;
+            left:-1300px;
+        }.planetario /* LEFT*/
+        {
+            position: absolute;
+            top: 500px;
+            bottom:0 ;
+            right:0 ;
+            left:-1100px;
+        }.no_me_quiere_en_su_vida /* DOWN*/
+        {
+            position: absolute;
+            top: 680px;
+            bottom:0 ;
+            right:0 ;
+            left:-140px;
+        }
+    .texto
+    {
+        position: absolute;
+        top: 300px;
+        left: 700px;
+    }
+    .musica
+    {
+        position: absolute;
+        top: 500px;
+        left: 700px;
+        visibility: hidden;
+    }
+    
